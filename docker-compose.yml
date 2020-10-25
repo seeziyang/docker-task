@@ -15,8 +15,8 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: flask:0.0.1
-    container_name: flask
+    image: seeziyang/simple-flask-app:0.0.1
+    container_name: simple-flask-app
     networks:
       my-network:
         aliases:
